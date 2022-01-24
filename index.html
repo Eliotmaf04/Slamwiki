@@ -25,8 +25,7 @@
                     <li class="nav-item"><a class="nav-link" href="#projet">Projets</a></li>
                     <li class="nav-item"><a class="nav-link" href="#Competences">Compétences</a></li>
                     <li class="nav-item"><a class="nav-link" href="#meconnaitre">Me connaitre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Formation">Formation</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -112,7 +111,310 @@
             </div>
         </div>
     </section>
-   
+    <!-- About-->
+    <section class="page-section" id="meconnaitre">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Me Connaitre</h2>
+                <h3 class="section-subheading text-muted">Retracez mon parcours depuis le collègue</h3>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/about-me/Hasting.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2000-2000</h4>
+                            <h4 class="subheading">Collège Hastings</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">J'ai fait toute ma scolarité au collège Hastings, dans lequel j'ai eu
+                                mon brevet des collèges</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/about-me/cdg.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2010-2020</h4>
+                            <h4 class="subheading">Lycée Charles de Gaulle</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">J'ai fait mes 3 années de lycée dans l'établissement Charles de gaulle
+                                à Caen</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="assets/about-me/supavenir.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2021-2023</h4>
+                            <h4 class="subheading">BTS-SIO</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Début du BTS-SIO dans l'etablissement Supavenir Saint Ursule,
+                                formation en alternance qui se finira en 2023</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <h4>
+                            Faites partie
+                            <br />
+                            De Mon
+                            <br />
+                            Histoire !
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Me contacter</h2>
+                <h3 class="section-subheading text-muted">Utilisez le formulaire ci-dessous et je vous recontacterai
+                    rapidement.</h3>
+            </div>
+            <form id="contactForm" data-sb-form-api-token="bee4e9bf-90ed-43f4-bd48-e2d1949388d9">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <!-- Name input-->
+                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
+                                data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="name:required">Un nom est requis.</div>
+                        </div>
+                        <div class="form-group">
+                            <!-- Email address input-->
+                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                                data-sb-validations="required,email" />
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Un Email est requis.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email invalide.</div>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <!-- Phone number input-->
+                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                                data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Un numéro de telephone est
+                                requis.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-group-textarea mb-md-0">
+                            <!-- Message input-->
+                            <textarea class="form-control" id="message" placeholder="Your Message *"
+                                data-sb-validations="required"></textarea>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">Un message est requis.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center text-white mb-3">
+                        <div class="fw-bolder">Form submission successful!</div>
+                    </div>
+                </div>
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+                <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+                <div class="h-captcha" style="text-align: center;" data-sitekey="9eea9e39-4f41-41e5-88d1-8cd510604690">
+                </div>
+                <!-- Submit Button-->
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
+                        id="submitButton" type="submit">Send Message</button></div>
+            </form>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; Eliot Mafille 2022</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- projet Modals-->
+    <!-- projet item 1 modal popup-->
+    <div class="projet-modal modal fade" id="projetModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Carte : 1660Ti</h2>
+                                <p class="item-intro text-muted">Une carte milieu de gamme avec un bon rapport
+                                    qualité/prix, </p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/cg-1660Ti.gif" alt="..." />
+
+                                <p>Tableau de statistiques minier</p>
+                                <table class="tftable" border="1">
+                                    <tr>
+                                        <th colspan="6">Algorithmes utilisés</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Ethash</td>
+                                        <td>TonCoin</td>
+                                        <td>Ravencoin</td>
+                                        <td>Octopus</td>
+                                        <td>ZelHash</td>
+                                        <td>KawPow</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6"><strong>Rendement : 50$/Mois</strong></td>
+                                    </tr>
+                                </table>
+
+
+
+                                <ul class="list-inline" style="margin-top: 1vh;">
+                                    <li>
+                                        <strong>Disponible:</strong>
+                                        Oui
+                                    </li>
+                                    <li>
+                                        <strong>Categorie:</strong>
+                                        Cloud-Mining
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    onclick="gotoopensea1660ti()" type="button">
+                                    Voir sur Opensea
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projet item 2 modal popup-->
+    <div class="projet-modal modal fade" id="projetModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/cg-3080Ti.gif" alt="..." />
+                                <p>Tableau de statistiques minier</p>
+                                <table class="tftable" border="1">
+                                    <tr>
+                                        <th colspan="4">Algorithmes utilisés</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Ethash</td>
+                                        <td>TonCoin</td>
+                                        <td>Ravencoin</td>
+                                        <td>KawPow</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Rendement : 150$/Mois</strong></td>
+                                    </tr>
+                                </table>
+
+
+
+                                <ul class="list-inline" style="margin-top: 1vh;">
+                                    <li>
+                                        <strong>Disponible:</strong>
+                                        Oui
+                                    </li>
+                                    <li>
+                                        <strong>Categorie:</strong>
+                                        Cloud-Mining
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    onclick="gotoopensea3080ti()" type="button">
+                                    Voir sur Opensea
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projet item 3 modal popup-->
+    <div class="projet-modal modal fade" id="projetModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/projet/3.jpg" alt="..." />
+                                <p>Tableau de statistiques minier</p>
+                                <table class="tftable" border="1">
+                                    <tr>
+                                        <th colspan="6">Algorithmes utilisés</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Ethash</td>
+                                        <td>TonCoin</td>
+                                        <td>Ravencoin</td>
+                                        <td>Octopus</td>
+                                        <td>ZelHash</td>
+                                        <td>KawPow</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6"><strong>Rendement : 115$/Mois</strong></td>
+                                    </tr>
+                                </table>
+
+
+
+                                <ul class="list-inline" style="margin-top: 1vh;">
+                                    <li>
+                                        <strong>Disponible:</strong>
+                                        Oui
+                                    </li>
+                                    <li>
+                                        <strong>Categorie:</strong>
+                                        Cloud-Mining
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    onclick="gotoopensea6800xt()" type="button">
+                                    Voir sur Opensea
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
