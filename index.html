@@ -221,18 +221,18 @@
                 </div>
                 <div class="d-none" id="submitSuccessMessage">
                     <div class="text-center text-white mb-3">
-                        <div class="fw-bolder">Form submission successful!</div>
+                        <div class="fw-bolder">Formulaire envoyé</div>
                     </div>
                 </div>
                 <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                    <div class="text-center text-danger mb-3">Erreur durant l'envoi</div>
                 </div>
                 <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
                 <div class="h-captcha" style="text-align: center;" data-sitekey="9eea9e39-4f41-41e5-88d1-8cd510604690">
                 </div>
                 <!-- Submit Button-->
                 <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
-                        id="submitButton" type="submit">Send Message</button></div>
+                        id="submitButton" type="submit">Envoyer le Message</button></div>
             </form>
         </div>
     </section>
@@ -248,6 +248,86 @@
             </div>
         </div>
     </footer>
+    <!-- projet Modals-->
+    <!-- projet item 1 modal popup-->
+    <div class="projet-modal modal fade" id="projetModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Projet  : Apprentissage web de base</h2>
+                                <p class="item-intro text-muted">Projet perso developpement </p>
+                                <img class="img-fluid d-block mx-auto" src="assets/web1.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase web1" data-bs-dismiss="modal"
+                                    onclick="" type="button">
+                                    Voir le Projet
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projet item 2 modal popup-->
+    <div class="projet-modal modal fade" id="projetModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                               <!-- Project details-->
+                               <h2 class="text-uppercase">Projet  : Création d'un Portfolio web</h2>
+                               <p class="item-intro text-muted">Projet Slam SIO </p>
+                               <img class="img-fluid d-block mx-auto" src="assets/portfolio.PNG" alt="..." />
+
+                               <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                   onclick="gotoportfolio()" type="button">
+                                   Voir le Projet
+                               </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projet item 3 modal popup-->
+    <div class="projet-modal modal fade" id="projetModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                               <!-- Project details-->
+                               <h2 class="text-uppercase">Projet  : Apprentissage web3.0</h2>
+                               <p class="item-intro text-muted">Projet perso developpement </p>
+                               <img class="img-fluid d-block mx-auto" src="assets/web1.jpg" alt="..." />
+
+                               <button class="btn btn-primary btn-xl text-uppercase web1" data-bs-dismiss="modal"
+                                   onclick="" type="button">
+                                   Voir le Projet
+                               </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>

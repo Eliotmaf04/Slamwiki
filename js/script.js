@@ -74,3 +74,6 @@ window.onload = function () {
     chart.render();
 
 }
+function gotoportfolio(){
+    location.replace("#page-top");
+}
