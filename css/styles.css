@@ -11433,17 +11433,17 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
-#nft .nft-item {
+#projet .projet-item {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
 }
-#nft .nft-item .nft-link {
+#projet .projet-item .projet-link {
   position: relative;
   display: block;
   margin: 0 auto;
 }
-#nft .nft-item .nft-link .nft-hover {
+#projet .projet-item .projet-link .projet-hover {
   display: flex;
   position: absolute;
   width: 100%;
@@ -11454,57 +11454,57 @@ header.masthead .masthead-heading {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-#nft .nft-item .nft-link .nft-hover .nft-hover-content {
+#projet .projet-item .projet-link .projet-hover .projet-hover-content {
   font-size: 1.25rem;
   color: white;
 }
-#nft .nft-item .nft-link:hover .nft-hover {
+#projet .projet-item .projet-link:hover .projet-hover {
   opacity: 1;
 }
-#nft .nft-item .nft-caption {
+#projet .projet-item .projet-caption {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
 }
-#nft .nft-item .nft-caption .nft-caption-heading {
+#projet .projet-item .projet-caption .projet-caption-heading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
 }
-#nft .nft-item .nft-caption .nft-caption-subheading {
+#projet .projet-item .projet-caption .projet-caption-subheading {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.nft-modal .modal-dialog {
+.projet-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
 }
-.nft-modal .modal-content {
+.projet-modal .modal-content {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
 }
-.nft-modal .modal-content h2, .nft-modal .modal-content .h2 {
+.projet-modal .modal-content h2, .projet-modal .modal-content .h2 {
   font-size: 3rem;
   line-height: 3rem;
 }
-.nft-modal .modal-content p.item-intro {
+.projet-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.nft-modal .modal-content p {
+.projet-modal .modal-content p {
   margin-bottom: 2rem;
 }
-.nft-modal .modal-content ul.list-inline {
+.projet-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.nft-modal .modal-content img {
+.projet-modal .modal-content img {
   margin-bottom: 2rem;
 }
-.nft-modal .close-modal {
+.projet-modal .close-modal {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -11513,7 +11513,7 @@ header.masthead .masthead-heading {
   cursor: pointer;
   background-color: transparent;
 }
-.nft-modal .close-modal:hover {
+.projet-modal .close-modal:hover {
   opacity: 0.3;
 }
 

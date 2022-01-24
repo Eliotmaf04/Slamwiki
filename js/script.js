@@ -43,3 +43,34 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+window.onload = function () {
+
+    var chart = new CanvasJS.Chart("chartContainer", {
+        theme: "light1",
+        exportEnabled: true,
+        animationEnabled: true,
+        title: {
+            text: ""
+        },
+        data: [{
+            type: "pie",
+            startAngle: 25,
+            toolTipContent: "<b>{label}</b>: {y}%",
+            showInLegend: "true",
+            legendText: "{label}",
+            indexLabelFontSize: 16,
+            indexLabel: "{label} - {y}%",
+            dataPoints: [
+                { y: 40, label: "HTML" },
+                { y: 25, label: "CSS" },
+                { y: 10, label: "PHP" },
+                { y: 15, label: "JS" },
+                { y: 10, label: "Web3" }
+            ]
+        }]
+    });
+    chart.render();
+
+}

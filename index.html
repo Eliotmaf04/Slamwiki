@@ -22,9 +22,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#Apropos">A propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projet">Projets</a></li>
                     <li class="nav-item"><a class="nav-link" href="#Competences">Compétences</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Experience">Expérience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#meconnaitre">Me connaitre</a></li>
                     <li class="nav-item"><a class="nav-link" href="#Formation">Formation</a></li>
                     <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
                 </ul>
@@ -36,12 +36,86 @@
         <div class="container">
             <div class="masthead-subheading">Bienvenu sur le Portfolio de</div>
             <div class="masthead-heading text-uppercase">Eliot Mafille</div>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#Apropos">Voir le profil</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#projet">Voir le profil</a>
 
         </div>
     </header>
+    <!-- Grille des projets-->
+    <section class="page-section bg-light" id="projet">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Mes Projets</h2>
+                <h3 class="section-subheading text-muted">Liste non-exhaustive de mes projets</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- projet item 1-->
+                    <div class="projet-item" style="margin-top: 15vh;">
+                        <a class="projet-link" data-bs-toggle="modal" href="#projetModal1">
+                            <div class="projet-hover">
+                                <div class="projet-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/encours.svg" alt="..." />
+                        </a>
+                        <div class="projet-caption">
+                            <div class="projet-caption-heading">Projet en cours</div>
+                            <div class="projet-caption-subheading text-muted">Débuté en Novembre 2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- projet item 2-->
+                    <div class="projet-item">
+                        <a class="projet-link" data-bs-toggle="modal" href="#projetModal2">
+                            <div class="projet-hover">
+                                <div class="projet-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/portfolio.svg" alt="..." />
+                        </a>
+                        <div class="projet-caption">
+                            <div class="projet-caption-heading">Portfolio</div>
+                            <div class="projet-caption-subheading text-muted">Débuté en Décembre 2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- projet item 3-->
+                    <div class="projet-item" style="margin-top: 15vh;">
+                        <a class="projet-link" data-bs-toggle="modal" href="#projetModal3">
+                            <div class="projet-hover">
+                                <div class="projet-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/encours.svg" alt="..." />
+                        </a>
+                        <div class="projet-caption">
+                            <div class="projet-caption-heading">Projet Web3.0</div>
+                            <div class="projet-caption-subheading text-muted">Débuté en Janvier 2022</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Compétences-->
+    <section class="page-section" id="Competences">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Compétences</h2>
+                <h3 class="section-subheading text-muted">Voici un apercu de l'utilisation de mes compétences</h3>
+            </div>
+            <div class="row text-center">
+                <div id="chartContainer" style="height: 400px; width: 100%;"></div>
+                <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </section>
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
